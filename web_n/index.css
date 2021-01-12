@@ -1,0 +1,192 @@
+
+    @font-face {
+      font-family: Gilroy-Medium;
+      src: url(fonts/Gilroy-Medium.ttf)
+    }
+    @font-face {
+      font-family: Gilroy-Bold;
+      src: url(fonts/Gilroy-Bold.ttf)
+    }
+    @font-face {
+      font-family: Gilroy-Light;
+      src: url(fonts/Gilroy-Light.ttf)
+    } 
+    P {
+      font-family: Gilroy-Light;
+      font-size: 16pt
+    }
+    h1 {
+      font-family: Gilroy-Bold;
+      font-size: 50pt;
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+    h3 {
+      font-family: Gilroy-Medium;
+      font-size: 30pt;
+      margin-top: -30px;
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      background-color: #c0dcec;
+    }
+
+    ul {
+      list-style-type: none;
+      overflow: hidden;
+      padding: 0;
+      background-color: white;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      font-family: Gilroy-Medium;
+      font-size: 17pt;
+      text-align: center;
+      padding: 20px 40px;
+      text-decoration: none;
+    }
+    .active {
+      background-color: #9dcbe5;
+    }
+
+    #index {
+      background: linear-gradient(rgba(46, 108, 133, 0.6), rgba(38, 89, 109, 0.6)), url('images/1.jpg') center center no-repeat;
+      background-size: cover;
+      color: #fff;
+      height: 1080px;
+    }
+
+    #index .title1{
+      margin-top: 150px;
+    }
+
+    #index .title2{
+      margin-top: 400px;
+    }
+
+    #description {
+      height: 1040px;
+    }
+
+    #description .media {
+      height: 500px;
+      margin: 100px 30px 30px 150px;
+    }
+
+    #description img {
+      margin-left: 70px;
+    }
+
+    #people {
+      height: 1040px;
+    }
+
+    #data {
+      font-family: Gilroy-Light;
+      font-size: 18pt;
+      border-collapse: collapse;
+      background-color: white;
+      width: 95%;
+      margin-left: 35px;
+      margin-top: 100px;
+    }
+
+    #data td, #data th {
+      border: 1px solid #ddd;
+      padding: 7px;
+    }
+
+    #data th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #9dcbe5;
+      color: black;
+    }
+
+    #contacts {
+      height: 1040px;
+    }
+
+    #contacts button {
+      width: 250px;
+      height: 50px;
+      padding: 0;
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      background: #fff;
+      border: 1px solid rgb(104, 190, 230, 0.5);
+      border-radius: 5px;
+      margin-left: 700px;
+    }
+
+    #contacts button:hover {
+      background: #88c0e0;
+      cursor: pointer;
+    }
+
+    #contacts p {
+      margin-top: 350px;
+    }
+
+    #login {
+      height: 1040px;
+    }
+
+    #signin {
+      height: 1040px;
+    }
+
+    .login {
+      margin: 170px auto;
+      width: 300px;
+      padding: 75px 40px;
+      background: white;
+      border-radius: 5px
+    }
+
+    .login-input {
+      width: 300px;
+      height: 50px;
+      margin-bottom: 25px;
+      padding-left:10px;
+      font-size: 15px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .login-button {
+      width: 100%;
+      height: 50px;
+      padding: 0;
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      background: #9dcbe5;
+      border: 0;
+      border-radius: 5px;
+    }
+
+    footer {
+      height: 40px;
+      overflow: hidden;
+      background-color: white;
+      font-family: Gilroy-Light;
+      font-size: 15pt;
+      line-height: 40px;
+      text-align:center
+    }
+
+
